@@ -5,7 +5,7 @@ pipeline {
             steps {
                 sh 'git init '
                 echo "Successful pull from Git"
-                git 'https://github.com/deepak-umre/dockerfile_tomcat.git'
+                git 'https://github.com/SARANG-09/dockerfile_tomcat.git'
             }
         }
         stage('Build') {
